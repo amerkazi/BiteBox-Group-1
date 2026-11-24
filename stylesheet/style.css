@@ -1,174 +1,3 @@
-/* 
-
-
-.navbar{
-    color: #885133;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f0e6d7 ;
-    
-}
-
-.links{
-    color: #885133;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-
-}
-
-.login-btn{
-    background-color: #d62300;
-    color: #f0e6d7;
-    border: none;
-    padding: 7px;
-    margin: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-
-}
-
-main section>h2 {
-    text-align: center;
-    font-size: 32px;
-    color: black;
-    margin: 30px 0px;
-    font-family: Arial, sans-serif;
-}
-
-.cards {
-    background-color: #885133;
-    border-radius: 10px;
-    width: 30%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: Arial, sans-serif;
-    color:#f0e6d7;
-}
-.cards > img{
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.card h2{
-    font-size: 23px;
-    font-family: Arial,sans-serif;
-    margin: 18px 20px;
-}
-.order-button{
-    color: #f0e6d7;
-    background-color:#d62300 ;
-    border: none;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    align-items: center;
-    justify-content: center;
-}
-
- .card-head{
-    margin-left: 35px;
-    font-weight: 700px;
-
-    
-} 
-
-
-.cards2 {
-    background-color: #70b410;
-    border-radius: 10px;
-    width: 30%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: Arial, sans-serif;
-    color:#f0e6d7;
-}
-.cards2 > img{
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.card h2{
-    font-size: 23px;
-    font-family: Arial,sans-serif;
-    margin: 18px 20px;
-}
-
-.cards3 {
-    background-color: #b44f10;
-    border-radius: 10px;
-    width: 30%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: Arial, sans-serif;
-    color:#f0e6d7;
-}
-.cards3 > img{
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.card h2{
-    font-size: 23px;
-    font-family: Arial,sans-serif;
-    margin: 18px 20px;
-}
-
-.cards4 {
-    background-color: #b4b110;
-    border-radius: 10px;
-    width: 30%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: Arial, sans-serif;
-    color:#f0e6d7;
-}
-.cards4 > img{
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.card h2{
-    font-size: 23px;
-    font-family: Arial,sans-serif;
-    margin: 18px 20px;
-}
-
-.cards5 {
-    background-color: #44b410;
-    border-radius: 10px;
-    width: 30%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: Arial, sans-serif;
-    color:#f0e6d7;
-}
-.cards5 > img{
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.card h2{
-    font-size: 23px;
-    font-family: Arial,sans-serif;
-    margin: 18px 20px;
-} */
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -447,6 +276,7 @@ main>hr {
     padding: 13px 30px;
     font-weight: 700;
     text-align: center;
+    border-radius: 20px;
 }
 
 .offer-image {
@@ -455,6 +285,176 @@ main>hr {
     height: 250px;
     object-fit: contain;
 }
-    
+
+
+
+
+/* Newsletter Section */
+
+.news-letter {
+    background: linear-gradient(135deg,#ff6b35,#ff914d);
+    padding: 50px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    border-radius: 12px;
+    margin: 40px auto;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+/* Heading */
+
+.news-letter h2 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+/* Paragraph */
+
+.news-letter p {
+    font-size: 16px;
+    color: #fff5ee;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Form */
+
+.news-letter form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 6px;
+    border-radius: 50px;
+    min-width: 350px;
+}
+
+/* Email Input */
+
+.news-letter input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 14px 18px;
+    font-size: 15px;
+    border-radius: 50px;
+    min-width: 0;
+}
+
+/* Subscribe Button */
+
+.news-letter button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.3s ;
+}
+
+.news-letter button:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+
+
+
+/* Styling footer */
+
+.footer-container {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 35px 6% 20px;
+}
+
+/* Main Footer Layout */
+
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+     flex-wrap: wrap; 
+    gap: 40px;
+    padding-bottom: 30px;
+}
+
+/* Logo */
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 28px;
+    color: #ff914d;
+    font-weight: bold;
+}
+
+.footer-logo img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Footer Headings */
+
+.footer-1 h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ff914d;
+}
+
+/* Lists */
+
+.footer-1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-1 ul li {
+    margin-bottom: 13px;
+    font-size: 15px;
+    color: #cccccc;
+    transition: 0.3s ease;
+}
+
+/* Links */
+
+.footer-1 ul li a {
+    color: #cccccc;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.footer-1 ul li a:hover {
+    color: #ff914d;
+    padding-left: 7px;
+}
+
+/* Horizontal Line */
+
+.footer-container hr {
+    border: none;
+    height: 1px;
+    background-color: #444;
+    margin: 20px 0;
+}
+
+/* Copyright */
+
+.footer-container p {
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
 
 
