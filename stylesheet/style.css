@@ -458,3 +458,109 @@ main>hr {
 
 
 
+/* customer review
+
+/*  */
+
+.review-section{
+    background-color: #fac069;
+    padding: 40px 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.review-section>.section-heading {
+    grid-column: 1 / -1;
+   gap: 25px;
+}
+
+.review-card{
+    background-color: white;
+    padding: 20px;
+}
+.review-card img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 12px;
+    
+}
+.review-card h3{
+    color: #fa7b04;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+
+}
+
+.review-card p{
+    color: #c94b00;
+    font-size: 14px;
+
+}
+
+.review-card p:last-child{
+    color: #815d4606;
+    font-size: 18px;
+
+}
+.newsletter-section{
+    background-color: #e94e11;
+    padding: 40px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.newsletter-content{
+    flex: 1;
+}
+.newsletter-content h2{
+    color: #e8b50d;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.newsletter-content p{
+    color: #ff9f1c;
+
+}
+
+.newsletter-form{
+    flex: 1;
+}
+
+newsletter-form form{
+    display: flex;
+    gap: 10px;
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.newsletter-form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 12px 18px;
+    font-size: 14px;
+    border-radius: 30px;
+
+}
+.newsletter-form button{
+    border: #3b2113;
+    background-color: #999;
+    color: #ccc;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+
+}
+////////////////////////////////////////////////////////////END
+
+
