@@ -561,6 +561,48 @@ newsletter-form form{
     font-weight: 600;
 
 }
-////////////////////////////////////////////////////////////END
+/* ////////////////////////////////////////////////////////////END */
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .welcome-section {
+        min-height: 300px;
+    }
+
+    #heading {
+        font-size: 30px;
+    }
+
+    .featured-section,
+    .review-section {
+        grid-template-columns: 1fr;
+    }
+
+    .offer-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .offer-content h2 {
+        font-size: 27px;
+    }
+
+    newsletter-section {
+        flex-direction: column;
+    }
+    section-title {
+        font-size: 27px;
+    }
+}
 
 
