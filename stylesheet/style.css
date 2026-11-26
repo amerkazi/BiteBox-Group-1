@@ -286,87 +286,6 @@ main>hr {
     object-fit: contain;
 }
 
-
-
-
-/* Newsletter Section */
-
-.news-letter {
-    background: linear-gradient(135deg,#ff6b35,#ff914d);
-    padding: 50px 8%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    border-radius: 12px;
-    margin: 40px auto;
-     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-}
-
-/* Heading */
-
-.news-letter h2 {
-    font-size: 32px;
-    color: #ffffff;
-    margin-bottom: 12px;
-    font-weight: 700;
-}
-
-/* Paragraph */
-
-.news-letter p {
-    font-size: 16px;
-    color: #fff5ee;
-    margin: 0;
-    line-height: 1.6;
-}
-
-/* Form */
-
-.news-letter form {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background-color: white;
-    padding: 6px;
-    border-radius: 50px;
-    min-width: 350px;
-}
-
-/* Email Input */
-
-.news-letter input {
-    flex: 1;
-    border: none;
-    outline: none;
-    padding: 14px 18px;
-    font-size: 15px;
-    border-radius: 50px;
-    min-width: 0;
-}
-
-/* Subscribe Button */
-
-.news-letter button {
-    background-color: #222;
-    color: white;
-    border: none;
-    padding: 14px 25px;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 50px;
-    transition: 0.3s ;
-}
-
-.news-letter button:hover {
-    background-color: #444;
-    transform: scale(1.05);
-}
-
-
-
-
 /* Styling footer */
 
 .footer-container {
@@ -458,6 +377,7 @@ main>hr {
 
 
 
+<<<<<<< HEAD
 /* customer review
 
 /*  */
@@ -562,6 +482,120 @@ newsletter-form form{
 
 }
 /* ////////////////////////////////////////////////////////////END */
+=======
+/* customer review section */
+.review-section {
+    padding: 40px 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.review-section .section-title {
+    grid-column: 1 / -1;
+}
+
+.review-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     border: 1px solid white;
+}
+.review-card img {
+    width: 80px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.review-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #3b2113;
+    text-transform: capitalize;
+}
+
+.review-card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.review-card p :last-child {
+    color: #ff9f1c;
+    font-size: 18px;
+}
+
+/* news letter section*/
+
+.newsletter-section {
+    background-color: #f5f5f5;
+    padding: 40px 6%;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.newsletter-content {
+    flex: 1;
+}
+
+.newsletter-content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #3b2113;
+    font-weight: 700;
+}
+
+.newsletter-content p {
+    color: #777;
+}
+
+.newsletter-form {
+    flex: 1;
+}
+
+.newsletter-form form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.newsletter-form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 12px 10px;
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+.newsletter-form button {
+    background-color: #c94b00;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: 0.3s ;
+    font-weight: 600;
+}
+
+
+/* end */
+>>>>>>> 0a163453be1a340184b537cb4ea2c7c3e7b7621b
 
 @media (max-width: 768px) {
     .navbar {
@@ -603,6 +637,10 @@ newsletter-form form{
     section-title {
         font-size: 27px;
     }
+<<<<<<< HEAD
 }
 
 
+=======
+}
+>>>>>>> 0a163453be1a340184b537cb4ea2c7c3e7b7621b
