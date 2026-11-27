@@ -300,7 +300,7 @@ main>hr {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-     flex-wrap: wrap; 
+    flex-wrap: wrap; 
     gap: 40px;
     padding-bottom: 30px;
 }
@@ -524,10 +524,10 @@ main>hr {
         font-size: 27px;
     }
 
-    newsletter-section {
+    .newsletter-section {
         flex-direction: column;
     }
-    section-title {
+    .section-title {
         font-size: 27px;
     }
 }

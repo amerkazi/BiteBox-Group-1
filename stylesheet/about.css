@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffaf4;
+    color: #333;
+    line-height: 1.6;
+}
+
+button, input{
+    font-family: inherit;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar-container{
+    background-color: #ffffff;
+    padding: 15px 6%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #ccc;
+}
+
+.links {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: #e85d04;
+}
+
+.login-link {
+    margin: 20px;
+}
+
+.login-btn {
+    background-color: #e85d04;
+    color: white ;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #c94b00 ;
+}
+
+/* about us section */
+
+.about-us{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-us h2 {
+    /* font-weight: 700; */
+    color: #e85d04;
+    padding: 10px;
+}
+
+.about-us p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.Restaurant-story {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Restaurant-story h2 {
+    color: #e85d04;
+    padding: 10px;
+}
+
+.Restaurant-story p {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* chefs section */
+
+.chef-message {
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.chef-message h2 {
+    color: #e85d04;
+    padding: 10px;
+}
+
+.chef-message p em {
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact p{
+    padding: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-container{
+    background-color: #1c1c1c;
+    color: white;
+    padding: 35px 6% 20px;
+}
+
+.footer-1{
+    /* background-color: #c94b00; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 2px;
+    gap: 40px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    gap: 12px;
+    color: #ff914d;
+    font-weight: bold;
+
+}
+
+.footer-1 img {
+    border-radius: 50px;
+    object-fit: cover;
+    
+}
+
+.footer-1 h3{
+    color: #ff914d;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-links li {
+    margin-bottom: 13px;
+    color: #999 ;
+    list-style: none;
+    
+    /* background-color: red; */
+}
+
+.footer-link{
+    /* background-color: #c94b00; */
+    color: #999;
+}
+
+.footer-link:hover{
+    color: #ff914d;
+    transition: 0.3s ease;
+}
+
+
+.footer-container hr {
+    border: none;
+    height: 1px;
+    background-color: #444;
+    margin: 20px 0;
+}
+
+.footer-container p {
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    margin-top: 20px;
+}
