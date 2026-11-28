@@ -4,96 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BiteBox-About</title>
+    <link rel="stylesheet" href="./stylesheet/About.css">
 </head>
 <body>
-    <nav>
-        <div>
-       <a href="index.html">Home</a>
-        |
-       <a href="menu.html">Menu</a>
-       |
-       <a href="about.html">About</a>
-       |
-       <a href="Services.html"> Services</a>
-       |
-       <a href="contact.html">Contact</a>
-       
-       </div>
+    <!-- Navbar -->
+    <nav class="navbar-container">
+        <div class="navbar">
+            <h1 class="logo"><img src="./assets/images/logo.jpg" alt="Food logo" height="50" width="50"><span>BiteBox</span></h1>
+
+            <div class="nav-links">
+                <a class="links" href="index.html">Home</a>
+                |
+                <a class="links" href="Menu.html">Menu</a>
+                |
+                <a class="links active" href="About.html">About</a>
+                |
+                <a class="links" href="Services.html">Services</a>
+                |
+                <a class="links" href="Contact.html">Contact</a>
+
+                <a class="login-btn" href="./Login.html">Login</a>
+            </div>
+        </div>
     </nav>
-    
+
     <main>
-     
-     <!-- About section -->
-  <section>
-    
-    <h2>About BiteBox</h2>
-    <p>
-        BiteBox is your one-stop destination for delicious meals prepared using fresh 
-        ingredients and delivered quickly to your doorstep.
-    </p>
-   </section>
+        <!-- About section -->
+        <section class="about-hero">
+            <h2 class="page-title">About BiteBox</h2>
+            <p>
+                BiteBox is your one-stop destination for delicious meals prepared using fresh
+                ingredients and delivered quickly to your doorstep.
+            </p>
+        </section>
 
-    <!--Restaurant Story -->
-     <section>
-    <hr>
-    <h2> Our Story </h2>
+        <div class="about-content">
+            <!-- Restaurant Story -->
+            <section class="about-section">
+                <h2 class="section-title">Our Story</h2>
+                <p>
+                    BiteBox started with a simple mission—to serve fresh, delicious meals
+                    prepared with quality ingredients and delivered with exceptional
+                    service. Every meal is crafted with care to bring happiness to our
+                    customers.
+                </p>
+            </section>
 
-    <p>
-        BiteBox started with a simple mission—to serve fresh, delicious meals
-        prepared with quality ingredients and delivered with exceptional
-        service. Every meal is crafted with care to bring happiness to our
-        customers.
-    </p>
-    </section>
-
-
-    <!-- Chef's Message-->
-
-    <section>
-    <hr>
-    <h2>Feel free to Contact </h2>
-    <p>
-        <em>
-            Every dish at BiteBox is prepared with fresh ingredients,authentic recipes,
-            and a passion for delivering memorable dining experiences.
-        </em>
-        <div>
-            <p>Email:info@bitebox.com</p>
-            <p>contact :+91546736588</p>
+            <!-- Chef's Message / Contact -->
+            <section class="about-section">
+                <h2 class="section-title">Feel free to Contact</h2>
+                <p class="quote">
+                    <em>
+                        Every dish at BiteBox is prepared with fresh ingredients, authentic recipes,
+                        and a passion for delivering memorable dining experiences.
+                    </em>
+                </p>
+                <div class="contact-details">
+                    <p>Email: info@bitebox.com</p>
+                    <p>Contact: +91546736588</p>
+                </div>
+            </section>
         </div>
-    </p>
-    </section>
+    </main>
 
-</main>
-  <footer>
-        <div>
-            <div>
-                <h3><img src="./assets/images/logo.jpg" alt="Food logo" height="20" width="20"><mark>BiteBox</mark></h3>
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="footer-1">
+            <div class="footer-brand">
+                <h3 class="footer-logo"><img src="./assets/images/logo.jpg" alt="Food logo" height="40" width="40"><span>BiteBox</span></h3>
+                <p>@BiteBox</p>
             </div>
-        </div>
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>Menu</li>
-                <li>About</li>
-                <li>services</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-        <div>
-            <div>
-                @BiteBox
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
             </div>
-            <div>
-                <h2>Contact</h2>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
                 <p>Phone No: 8765543222</p>
-                <p>Email: cgy@gmail.com </p>
+                <p>Email: cgy@gmail.com</p>
                 <p>Address: xyz flat,34, Pune</p>
             </div>
         </div>
     </footer>
-
-
-
 </body>
 </html>

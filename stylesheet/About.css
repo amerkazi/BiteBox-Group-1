@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffaf4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar-container{
+    background-color: #ffffff;
+    padding: 15px 6%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #ccc;
+}
+
+.links {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: #e85d04;
+}
+
+.active {
+    color: #e85d04;
+    text-decoration: underline;
+}
+
+.login-btn {
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #e85d04;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #c94b00;
+}
+
+/* ABOUT HERO */
+
+.about-hero {
+    min-height: 300px;
+    background: linear-gradient(rgba(40, 20, 5, 0.65), rgba(40, 20, 5, 0.65)), url(../assets/images/Banner-img.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    flex-direction: column;
+}
+
+.page-title {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.about-hero p {
+    max-width: 700px;
+    font-size: 20px;
+}
+
+/* ABOUT CARDS */
+
+.about-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 6%;
+}
+
+.about-section {
+    background-color: white;
+    border-left: 5px solid #e85d04;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    color: #c94b00;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #e85d04;
+    margin: 12px auto 0;
+    border-radius: 5px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.quote {
+    background-color: #fff3e6;
+    border-left: 5px solid #ff9f1c;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-details p {
+    background-color: #fffaf4;
+    border: 1px solid #f0dfce;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+/* FOOTER */
